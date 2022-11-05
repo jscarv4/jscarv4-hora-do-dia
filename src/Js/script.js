@@ -18,8 +18,10 @@ function carregar() {
         dia = 'Quarta-feira'
     } else if (dia == 4) {
         dia = 'Quinta-feira'
-    } else {
+    } else if (dia == 5) {
         dia = 'Sexta-feira'
+    } else {
+        dia = 'Sábado'
     }
         
     msg.innerHTML = `<b>Agora são ${hora}:${mts}
